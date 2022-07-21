@@ -1,0 +1,4 @@
+./common/.circleci/config.yml
+./service1/.circleci/config.yml
+./service2/.circleci/config.yml
+./service3/.circleci/config.yml

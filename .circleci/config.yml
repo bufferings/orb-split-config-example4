@@ -1,0 +1,12 @@
+version: 2.1
+
+setup: true
+
+orbs:
+  split-config: bufferings/split-config@0.0.7
+
+workflows:
+  generate-config:
+    jobs:
+      - split-config/generate-config:
+          config-list-path: .circleci/config-list
